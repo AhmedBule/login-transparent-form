@@ -21,4 +21,31 @@ margin: 0;
 .login-container{
     background-color: hsla(201, 100%, 6%, 0.6);
     color: white;
+    padding: 50px 30px;
+    width: 50%;
+    min-width: 400px;
+    max-width: 600px;
 }
+
+.login-title{
+    color: white;
+    text-align: center;
+font-weight: normal;
+margin: 0;
+margin-bottom: 40px;
+font-size: 2.5em;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-group label{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+
